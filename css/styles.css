@@ -18,6 +18,7 @@ ul li {
 .jumbotron {
   background-color: #45DCF2;
   color: #435456;
+  border: solid 2px;
 }
 
 .jumbotron h1 {
