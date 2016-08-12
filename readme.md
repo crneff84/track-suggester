@@ -10,7 +10,7 @@ _This application uses the users answers to determine which Epicodus track might
 
 ## Setup/Installation Requirements
 
-* _This website is best viewed in Google Chrome browser._
+* _This website is best viewed in Google Chrome browser. The website can be viewed at this address https://crneff84.github.io/track-suggester/_
 
 ## Known Bugs
 
