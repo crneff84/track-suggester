@@ -13,20 +13,51 @@
       <div class="jumbotron">
         <h1>Which Track is Right for You?</h1>
       </div>
+      <div id="introduction">
+        <p>At Epicodus, there are 5 track available to students. They are:</p>
+        <ul>
+          <li>Ruby/Rails</li>
+          <li>PHP/Drupal</li>
+          <li>Java/Android</li>
+          <li>CSS/Design</li>
+          <li>C#/.NET</li>
+        </ul>
+        <p>This survey is designed to help you decide which track is right for you. Good luck!</p>
+      </div>
       <form id="suggester">
-        <h2>What is your name?</h2>
-        
+        <h3>What is your name?</h3>
+        <div class="form-group">
+          <input id="person" class="form-control" type="text">
+        </div>
+        <h3>Do you consider yourself to be artistically creative?</h3>
+        <select class="form-control" id="creative">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+        <h3>Which of these companies would you be most interested in working for?</h3>
+        <div class="radio">
+          <input type="radio" name="company" value="microsoft">
+            Microsoft
+        </div>
+        <div class="radio">
+          <input type="radio" name="company" value="google">
+            Google
+        </div>
+        <div class="radio">
+          <input type="radio" name="company" value="nike">
+            Nike
+        </div>
+        <div class="radio">
+          <input type="radio" name="company" value="intel">
+            Intel
+        </div>
+        <div class="radio">
+          <input type="radio" name="company" value="newrelic">
+            New Relic
+        </div>
+        <h3></h3>
 
-
-
-
-
-
-
-
-
-
-
-
+      </form>
+    </div>
   </body>
 </html>
