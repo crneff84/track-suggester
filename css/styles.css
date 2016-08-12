@@ -38,15 +38,11 @@ ul li {
   margin-top: 15px;
 }
 
-#greeting {
-  text-decoration: underline;
-}
-
 #ruby, #php, #java, #css, #c {
   display: none;
   margin-bottom: 15px;
 }
 
-#copyright {
+#author {
   float: right
 }

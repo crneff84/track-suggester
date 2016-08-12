@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     if (nameInput === ""){
       alert("Please Enter Your Name")
-    } else if (creativeInput === 'No' && companyInput === 'newrelic' && skillInput === 'web' || skillInput === 'web' && startupInput === 'yes'){
+    } else if (creativeInput === 'No' && companyInput === 'newrelic' && skillInput === 'web' ||creativeInput === 'No' && skillInput === 'web' && startupInput === 'yes'){
       $('#ruby').show();
       $('#php').hide();
       $('#java').hide();
