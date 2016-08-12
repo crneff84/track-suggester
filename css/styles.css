@@ -2,11 +2,17 @@ body {
   background-color: #EEF0F1;
   margin-bottom: 25px;
   margin-top: 10px;
+  margin-left: 6px;
+  margin-right: 6px;
   color: #435456;
 }
 
 a {
   color: #435456;
+}
+
+ul li {
+  text-decoration: underline;
 }
 
 .jumbotron {
@@ -19,12 +25,12 @@ a {
   font-size: 32pt;
 }
 
-ul li {
-  text-decoration: underline;
-}
-
 .radio {
   margin-left: 20px;
+}
+
+#suggester {
+  max-width: 500px;
 }
 
 #outro {
@@ -35,4 +41,8 @@ ul li {
 #ruby, #php, #java, #css, #c {
   display: none;
   margin-bottom: 15px;
+}
+
+#copyright {
+  float: right
 }
