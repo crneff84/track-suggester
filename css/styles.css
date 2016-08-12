@@ -5,3 +5,7 @@
 .radio {
   margin-left: 20px;
 }
+
+#outro {
+  display: none;
+}
