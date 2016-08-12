@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("form#suggester").submit(function(event){
-    var nameInput = $("#person").val();
+    var nameInput = $("input#user").val();
     var creativeInput = $("#creative").val();
     var companyInput = $("input:radio[name=company]:checked").val();
     var startupInput = $("input:radio[name=startup]:checked").val();
@@ -9,20 +9,43 @@ $(document).ready(function(){
 
     if (creativeInput === 'No' && companyInput === 'newrelic' && skillInput === 'web' || skillInput === 'web' && startupInput === 'yes'){
       $('#ruby').show();
+      $('#php').hide();
+      $('#java').hide();
+      $('#css').hide();
+      $('#c').hide();
     } else if (creativeInput === 'No' && companyInput === 'intel' || startupInput === 'no' && skillInput === 'data'){
       $('#php').show();
+      $('#ruby').hide();
+      $('#java').hide();
+      $('#css').hide();
+      $('#c').hide();
     } else if (creativeInput === 'No' && startupInput === 'yes' && skillInput === 'mobile' || companyInput === 'nike' && macorpcInput === 'both' && skillInput === 'mobile'){
       $('#java').show();
-
-
-    } else if (creativeInput === 'Yes' && startupInput === 'yes' && skillInput === 'web' || creativeInput === 'Yes' && startupInput === 'no'){
+      $('#php').hide();
+      $('#ruby').hide();
+      $('#css').hide();
+      $('#c').hide();
+    } else if (creativeInput === 'Yes' && startupInput === 'yes' && skillInput === 'web' || creativeInput === 'Yes' && startupInput === 'no' && skillInput === 'web'){
       $('#css').show();
-    } else if (creativeInput === 'No' && startupInput === 'yes' && skillInput === 'web'){
+      $('#php').hide();
+      $('#java').hide();
+      $('#ruby').hide();
+      $('#c').hide();
+    } else if (creativeInput === 'No' && startupInput === 'no' && skillInput === 'game' || skillInput === 'game' && macorpcInput === 'pc' || companyInput === 'microsoft' && macorpcInput === 'pc'){
       $('#c').show();
+      $('#php').hide();
+      $('#java').hide();
+      $('#css').hide();
+      $('#ruby').hide();
     } else {
-      $('#alternate').show();
+      $('#java').show();
+      $('#php').hide();
+      $('#ruby').hide();
+      $('#css').hide();
+      $('#c').hide();
     }
 
+    $(".user").text(nameInput);
     $('#outro').show();
     event.preventDefault();
   });

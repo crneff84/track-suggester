@@ -1,5 +1,26 @@
+body {
+  background-color: #EEF0F1;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  color: #435456;
+}
+
+a {
+  color: #435456;
+}
+
+.jumbotron {
+  background-color: #45DCF2;
+  color: #435456;
+}
+
 .jumbotron h1 {
   text-align: center;
+  font-size: 32pt;
+}
+
+ul li {
+  text-decoration: underline;
 }
 
 .radio {
@@ -8,12 +29,10 @@
 
 #outro {
   display: none;
+  margin-top: 15px;
 }
 
 #ruby, #php, #java, #css, #c {
   display: none;
-}
-
-#alternate {
-  display: none;
+  margin-bottom: 15px;
 }

@@ -11,23 +11,23 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Which Track is Right for You?</h1>
+        <h1>Which Programming Track is Right for You?</h1>
       </div>
       <div id="introduction">
-        <p>At Epicodus, there are 5 track available to students. They are:</p>
+        <strong><p>At Epicodus, there are 5 track available to students. They are:</p>
         <ul>
-          <li>Ruby/Rails</li>
-          <li>PHP/Drupal</li>
-          <li>Java/Android</li>
-          <li>CSS/Design</li>
-          <li>C#/.NET</li>
+          <li><a href="https://www.ruby-lang.org/en/">Ruby/Rails</a></li>
+          <li><a href="http://php.net/">PHP/Drupal</a></li>
+          <li><a href="https://www.java.com/en/">Java/Android</a></li>
+          <li><a href="http://getbootstrap.com/css/">CSS/Design</a></li>
+          <li><a href="https://msdn.microsoft.com/en-us/library/kx37x362.aspx">C#/.NET</a></li>
         </ul>
-        <p>This survey is designed to help you decide which track is right for you. Good luck!</p>
+        <p>This survey is designed to help you decide which track is right for you. Good luck!</p></strong>
       </div>
       <form id="suggester">
         <h3>What is your name?</h3>
         <div class="form-group">
-          <input id="person" class="form-control" type="text">
+          <input id="user" class="form-control" type="text">
         </div>
         <h3>Do you consider yourself to be artistically creative?</h3>
         <select class="form-control" id="creative">
@@ -97,27 +97,28 @@
         <button type="submit" class="btn btn-warning">What's your track?!</button>
       </form>
       <div id="outro">
-        <p><span id="user"> </span>! You should learn <span id="track"></span>!</p>
+        <p>Hello <span class="user"></span>, you should consider taking the following track!</p>
+        <div id="ruby">
+          <h3>Ruby</h3>
+          <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
+        </div>
+        <div id="php">
+          <h3>PHP</h3>
+          <p>If you're keen to work for an agency that builds websites for clients, or if you like the idea of building out sites for brands, businesses, and organizations, PHP is a great direction to go.</p>
+        </div>
+        <div id="java">
+          <h3>Java</h3>
+          <p>Java is a very marketable and versitile language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.</p>
+        </div>
+        <div id="css">
+          <h3>CSS</h3>
+          <p>CSS is a great language to learn if you're interested in designing dynamic websites.</p>
+        </div>
+        <div id="c">
+          <h3>C#</h3>
+          <p>If you like the idea of working for a larger company on business software, C# is a great choice. C# is also a popular programming language in the game development community.</p>
+        </div>
       </div>
-      <div id="ruby">
-        <p>RUBY</p>
-      </div>
-      <div id="php">
-        <p>PHP</p>
-      </div>
-      <div id="java">
-        <p>JAVA</p>
-      </div>
-      <div id="css">
-        <p>CSS</p>
-      </div>
-      <div id="c">
-        <p>C#</p>
-      </div>
-      <div id="alternate">
-        <p>ALTERNATE</p>
-      </div>
-
     </div>
   </body>
 </html>
