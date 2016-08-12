@@ -16,7 +16,8 @@ $(document).ready(function(){
       $('#css').hide();
       $('#c').hide();
       $(".user").text(nameInput);
-      $('#outro').show();
+      $('#outro').hide();
+      $('#outro').fadeIn();
     } else if (creativeInput === 'No' && companyInput === 'intel' || startupInput === 'no' && skillInput === 'data'){
       $('#php').show();
       $('#ruby').hide();
@@ -24,7 +25,8 @@ $(document).ready(function(){
       $('#css').hide();
       $('#c').hide();
       $(".user").text(nameInput);
-      $('#outro').show();
+      $('#outro').hide();
+      $('#outro').fadeIn();
     } else if (creativeInput === 'No' && startupInput === 'yes' && skillInput === 'mobile' || companyInput === 'nike' && macorpcInput === 'both' && skillInput === 'mobile'){
       $('#java').show();
       $('#php').hide();
@@ -32,7 +34,8 @@ $(document).ready(function(){
       $('#css').hide();
       $('#c').hide();
       $(".user").text(nameInput);
-      $('#outro').show();
+      $('#outro').hide();
+      $('#outro').fadeIn();
     } else if (creativeInput === 'Yes' && startupInput === 'yes' && skillInput === 'web' || creativeInput === 'Yes' && startupInput === 'no' && skillInput === 'web'){
       $('#css').show();
       $('#php').hide();
@@ -40,7 +43,8 @@ $(document).ready(function(){
       $('#ruby').hide();
       $('#c').hide();
       $(".user").text(nameInput);
-      $('#outro').show();
+      $('#outro').hide();
+      $('#outro').fadeIn();
     } else if (creativeInput === 'No' && startupInput === 'no' && skillInput === 'game' || skillInput === 'game' && macorpcInput === 'pc' || companyInput === 'microsoft' && macorpcInput === 'pc'){
       $('#c').show();
       $('#php').hide();
@@ -48,7 +52,8 @@ $(document).ready(function(){
       $('#css').hide();
       $('#ruby').hide();
       $(".user").text(nameInput);
-      $('#outro').show();
+      $('#outro').hide();
+      $('#outro').fadeIn();
     } else {
       $('#java').show();
       $('#php').hide();
@@ -56,7 +61,8 @@ $(document).ready(function(){
       $('#css').hide();
       $('#c').hide();
       $(".user").text(nameInput);
-      $('#outro').show();
+      $('#outro').hide();
+      $('#outro').fadeIn();
     }
 
     event.preventDefault();
