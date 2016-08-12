@@ -9,3 +9,11 @@
 #outro {
   display: none;
 }
+
+#ruby, #php, #java, #css, #c {
+  display: none;
+}
+
+#alternate {
+  display: none;
+}
