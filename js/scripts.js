@@ -71,5 +71,5 @@ $(document).ready(function(){
 });
 
 $(window).on("load", function(){
-  setTimeout(function(){ alert("Alerted on Load"); }, 5000);
+  setTimeout(function(){ alert("Alerted on Load"); }, 15000);
 })
