@@ -72,7 +72,7 @@ $(document).ready(function(){
 
 var startTime = Date.now();
 
-$(window).on("load", function(){
+$(window).on("DOMContentLoaded", function(){
   setTimeout(function(){
     var totalTimeElapsed = Date.now() - startTime;
     alert("Alerted at: " + totalTimeElapsed); }, 0);
