@@ -70,10 +70,9 @@ $(document).ready(function(){
   });
 });
 
-var startTime = Date.now();
-
 $(window).on("load", function(){
   setTimeout(function(){
+    var startTime = Date.now();
     var totalTimeElapsed = Date.now() - startTime;
-    alert("Alerted at: " + totalTimeElapsed); }, 15000);
+    alert("Alerted at: " + totalTimeElapsed); }, 10000);
 })
