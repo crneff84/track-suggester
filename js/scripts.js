@@ -69,3 +69,7 @@ $(document).ready(function(){
     event.preventDefault();
   });
 });
+
+$(window).on("load", function(){
+  alert("Alerted on Load");
+})
