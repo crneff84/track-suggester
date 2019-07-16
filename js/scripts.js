@@ -75,5 +75,5 @@ var startTime = Date.now();
 $(window).on("load", function(){
   setTimeout(function(){
     var totalTimeElapsed = Date.now() - startTime;
-    alert("Alerted at: " + totalTimeElapsed); }, 2000);
+    alert("Alerted at: " + totalTimeElapsed); }, 0);
 })
