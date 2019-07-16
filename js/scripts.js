@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  alert("Alerted!")
+  //alert("Alerted!")
   $("form#suggester").submit(function(event){
     var nameInput = $("input#user").val();
     var creativeInput = $("#creative").val();
