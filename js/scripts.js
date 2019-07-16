@@ -70,6 +70,10 @@ $(document).ready(function(){
   });
 });
 
+var startTime = Date.now();
+
 $(window).on("load", function(){
-  setTimeout(function(){ alert("Alerted on Load"); }, 15000);
+  setTimeout(function(){
+    var totalTimeElapsed = Date.now() - startTime;
+    alert("Alerted at: " + totalTimeElapsed); }, 15000);
 })
